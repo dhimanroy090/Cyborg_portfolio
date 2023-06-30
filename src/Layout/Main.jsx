@@ -1,5 +1,5 @@
 import App from '../App';
-import Blog from '../Components/Blog/Blog';
+// import Blog from '../Components/Blog/Blog';
 import Approach from '../Components/Home/Approach';
 import Banner from '../Components/Home/Banner';
 import Content from '../Components/Home/Content';
@@ -17,7 +17,7 @@ const Main = () => {
             <Content></Content>
             <Approach></Approach>
             <Footer></Footer>
-            <Blog></Blog>
+            {/* <Blog></Blog> */}
         </div>
     );
 };
